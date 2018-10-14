@@ -3,11 +3,14 @@
     {
       "name": "name",
       "value": "default"
+    },
+    {
+      "name": "name1",
+      "value": "default1"
     }
   ],
   "name": "test-stage",
   "variants": [
-
     {
       "conditions": [
         {
@@ -21,9 +24,34 @@
       "mods": [
         {
           "flag": "name",
-          "value": "Louisville"
+          "value": "Level 1"
+        },
+        {
+          "flag": "name1",
+          "value": "Level 1 unchanged"
         }
       ],
-      "name": "Louisville"
-    }]
+      "name": "Level 1 Variant",
+      "variants": [
+        {
+          "conditions": [
+            {
+              "predicate": "InS2CellsPredicate",
+              "value": [
+                "8869655"
+              ]
+            }
+          ],
+          "description": "",
+          "mods": [
+            {
+              "flag": "name",
+              "value": "Level 2"
+            }
+          ],
+          "name": "Level 2 Variant"
+        }
+      ]
     }
+  ]
+}
