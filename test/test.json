@@ -1,0 +1,29 @@
+{
+  "flags": [
+    {
+      "name": "name",
+      "value": "default"
+    }
+  ],
+  "name": "test-stage",
+  "variants": [
+
+    {
+      "conditions": [
+        {
+          "predicate": "InS2CellsPredicate",
+          "value": [
+            "88697"
+          ]
+        }
+      ],
+      "description": "",
+      "mods": [
+        {
+          "flag": "name",
+          "value": "Louisville"
+        }
+      ],
+      "name": "Louisville"
+    }]
+    }
