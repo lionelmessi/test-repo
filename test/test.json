@@ -60,6 +60,28 @@
           "name": "Level 2 Variant"
         }
       ]
+    },
+    {
+      "conditions": [
+        {
+          "predicate": "InS2CellsPredicate",
+          "value": [
+            "87697"
+          ]
+        }
+      ],
+      "description": "",
+      "mods": [
+        {
+          "flag": "name",
+          "value": "Level 1"
+        },
+        {
+          "flag": "name1",
+          "value": "Level 2 unchanged"
+        }
+      ],
+      "name": "Level top 2 Variant"
     }
   ]
 }
