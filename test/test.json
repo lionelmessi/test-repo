@@ -7,6 +7,10 @@
     {
       "name": "name1",
       "value": "default1"
+    },
+    {
+      "name": "name2",
+      "value": "default2"
     }
   ],
   "name": "test-stage",
@@ -47,6 +51,10 @@
             {
               "flag": "name",
               "value": "Level 2"
+            },
+            {
+              "flag": "name2",
+              "value": "Level2 2"
             }
           ],
           "name": "Level 2 Variant"
