@@ -10,7 +10,11 @@
     },
     {
       "name": "name2",
-      "value": "default2"
+      "value": null
+    },
+    {
+      "name": "name3",
+      "value": null
     }
   ],
   "name": "test-stage",
